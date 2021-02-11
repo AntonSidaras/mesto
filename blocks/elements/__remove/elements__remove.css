@@ -1,18 +1,20 @@
-.elements__like{
+.elements__remove{
   padding: 0;
-  width: 22px;
-  height: 19px;
-  align-self: center;
+  width: 18px;
+  height: 19.3px;
+  position: absolute;
   outline: none;
   border: none;
   background-color: transparent;
-  background-image: url(../../../images/elements/like.svg);
+  background-image: url(../../../images/elements/trash.svg);
   background-repeat: no-repeat;
   background-position: center;
+  top: 18px;
+  right: 15px;
   opacity: 1;
   transition: opacity 0.1s ease;
 }
-.elements__like:hover{
+.elements__remove:hover{
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.6;
 }
